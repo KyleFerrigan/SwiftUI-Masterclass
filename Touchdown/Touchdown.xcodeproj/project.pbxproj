@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C32168C291B104F002FFB7B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C32168B291B104F002FFB7B /* Launch Screen.storyboard */; };
 		9C84A40F290DD23700B53E25 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84A40E290DD23700B53E25 /* NavigationBarView.swift */; };
 		9C84A411290DD41A00B53E25 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84A410290DD41A00B53E25 /* LogoView.swift */; };
 		9C84A413290DD80E00B53E25 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84A412290DD80E00B53E25 /* PlayerModel.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C32168B291B104F002FFB7B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9C84A40E290DD23700B53E25 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		9C84A410290DD41A00B53E25 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		9C84A412290DD80E00B53E25 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				9C953E77290DBD6100E9607A /* Assets.xcassets */,
 				9C953E8B290DC59C00E9607A /* Info.plist */,
 				9C953E79290DBD6100E9607A /* Preview Content */,
+				9C32168B291B104F002FFB7B /* Launch Screen.storyboard */,
 			);
 			path = Touchdown;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				9C953E78290DBD6100E9607A /* Assets.xcassets in Resources */,
 				9C953E87290DC54000E9607A /* category.json in Resources */,
 				9C953E89290DC54000E9607A /* product.json in Resources */,
+				9C32168C291B104F002FFB7B /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +472,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -502,6 +507,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
