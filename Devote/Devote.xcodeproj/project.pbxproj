@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C32167E291AFE03002FFB7B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C32167D291AFE03002FFB7B /* Launch Screen.storyboard */; };
 		9C53D8232913146F00C16CEC /* DevoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53D8222913146F00C16CEC /* DevoteApp.swift */; };
 		9C53D8252913146F00C16CEC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53D8242913146F00C16CEC /* ContentView.swift */; };
 		9C53D8272913147000C16CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C53D8262913147000C16CEC /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C32167D291AFE03002FFB7B /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9C53D81F2913146F00C16CEC /* Devote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Devote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C53D8222913146F00C16CEC /* DevoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevoteApp.swift; sourceTree = "<group>"; };
 		9C53D8242913146F00C16CEC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,7 +72,7 @@
 		9C53D837291315B800C16CEC /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		9C53D838291315B800C16CEC /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		9C53D839291315B800C16CEC /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
-		9C53D844291316CC00C16CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9C53D844291316CC00C16CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C53D8492913216000C16CEC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		9C53D84B2914513700C16CEC /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		9C53D84D291458A200C16CEC /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
@@ -131,7 +133,6 @@
 		9C53D8212913146F00C16CEC /* Devote */ = {
 			isa = PBXGroup;
 			children = (
-				9C53D844291316CC00C16CEC /* Info.plist */,
 				9C53D8222913146F00C16CEC /* DevoteApp.swift */,
 				9C53D83F291315E200C16CEC /* View */,
 				9C53D8422913160500C16CEC /* Model */,
@@ -141,6 +142,8 @@
 				9C53D83D291315C100C16CEC /* Sound */,
 				9C53D8262913147000C16CEC /* Assets.xcassets */,
 				9C53D8282913147000C16CEC /* Preview Content */,
+				9C32167D291AFE03002FFB7B /* Launch Screen.storyboard */,
+				9C53D844291316CC00C16CEC /* Info.plist */,
 			);
 			path = Devote;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C32167E291AFE03002FFB7B /* Launch Screen.storyboard in Resources */,
 				9C53D82A2913147000C16CEC /* Preview Assets.xcassets in Resources */,
 				9C53D83B291315B800C16CEC /* sound-rise.mp3 in Resources */,
 				9C53D8272913147000C16CEC /* Assets.xcassets in Resources */,
@@ -499,9 +503,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Devote/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Devote;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -530,9 +536,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Devote/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Devote;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
