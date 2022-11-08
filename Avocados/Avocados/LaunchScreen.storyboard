@@ -3,8 +3,8 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,9 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="5io-R1-r4a">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avocado" translatesAutoresizingMaskIntoConstraints="NO" id="vPu-Gy-0Ah">
                                 <rect key="frame" x="76.666666666666686" y="271" width="240" height="240"/>
                                 <constraints>
@@ -34,14 +31,10 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="ColorGreenMedium"/>
                         <constraints>
                             <constraint firstItem="QGY-Z4-fyo" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="2pB-YQ-b0I"/>
-                            <constraint firstItem="5io-R1-r4a" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="5s5-XA-LOR"/>
-                            <constraint firstItem="5io-R1-r4a" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="JTF-HI-e8d"/>
                             <constraint firstItem="vPu-Gy-0Ah" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="XSw-Cr-hpX"/>
-                            <constraint firstAttribute="bottom" secondItem="5io-R1-r4a" secondAttribute="bottom" id="fo9-sj-jVw"/>
-                            <constraint firstAttribute="trailing" secondItem="5io-R1-r4a" secondAttribute="trailing" id="hae-rz-TFd"/>
                             <constraint firstItem="vPu-Gy-0Ah" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" constant="-35" id="nJF-gh-C8u"/>
                             <constraint firstItem="QGY-Z4-fyo" firstAttribute="top" secondItem="vPu-Gy-0Ah" secondAttribute="bottom" constant="12" id="p2q-XG-ij3"/>
                         </constraints>
@@ -54,9 +47,8 @@
     </scenes>
     <resources>
         <image name="avocado" width="883" height="862"/>
-        <image name="background" width="1194" height="834"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <namedColor name="ColorGreenMedium">
+            <color red="0.086274509803921567" green="0.47450980392156861" blue="0.25882352941176473" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
